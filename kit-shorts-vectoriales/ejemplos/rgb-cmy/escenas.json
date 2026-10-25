@@ -1,0 +1,1048 @@
+{
+  "titulo": "RGB y CMYK: tres colores para engañar a tu ojo",
+  "voz": {
+    "id": "d047b6a8f24f4d56ba818b08dbd9d089",
+    "velocidad": 1.1
+  },
+  "escenas": [
+    {
+      "narracion": "Tu pantalla solo tiene tres colores de luz. Tu impresora, tres tintas. Y aun así, parece que pueden mostrarte cualquier color… pero eso no es del todo cierto.",
+      "titulares": [
+        {
+          "texto": "3 COLORES PARA TODOS LOS COLORES",
+          "acento": "3"
+        },
+        {
+          "texto": "…¿SEGURO?",
+          "acento": "¿SEGURO?",
+          "desde": "pero",
+          "tam": 150
+        }
+      ],
+      "capas": [
+        {
+          "svg": "telefono",
+          "dibujo": 1.4,
+          "empuje": 0.03,
+          "escala": 62,
+          "pos": [
+            300,
+            1150
+          ]
+        },
+        {
+          "svg": "subpixeles",
+          "desde": "luz",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 62,
+          "pos": [
+            300,
+            1150
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "hoja_impresa",
+          "desde": "cualquier",
+          "dibujo": 0,
+          "escala": 62,
+          "pos": [
+            770,
+            1175
+          ],
+          "desde_pos": [
+            770,
+            1060
+          ],
+          "mov": 1.4,
+          "empuje": 0.03
+        },
+        {
+          "svg": "impresora",
+          "desde": "impresora",
+          "dibujo": 1.0,
+          "escala": 62,
+          "pos": [
+            770,
+            1060
+          ],
+          "empuje": 0.03,
+          "temblor": 2.5,
+          "temblor_en": [
+            "cualquier",
+            {
+              "palabra": "cualquier",
+              "t": 1.5
+            }
+          ],
+          "semilla": 77
+        },
+        {
+          "svg": "cartuchos",
+          "desde": "tintas",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 62,
+          "pos": [
+            770,
+            1060
+          ],
+          "empuje": 0.03,
+          "temblor": 2.5,
+          "temblor_en": [
+            "cualquier",
+            {
+              "palabra": "cualquier",
+              "t": 1.5
+            }
+          ],
+          "semilla": 77
+        }
+      ]
+    },
+    {
+      "narracion": "El truco no está en la luz: está en tu ojo. En la retina tienes tres tipos de conos. Unos responden más a la luz de onda corta, otros a la media y otros a la larga.",
+      "titulares": [
+        {
+          "texto": "EL TRUCO ESTÁ EN TU OJO",
+          "acento": "OJO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "ojo",
+          "dibujo": 1.8,
+          "empuje": 0.05
+        },
+        {
+          "svg": "conos",
+          "desde": "conos",
+          "dibujo": 0.9,
+          "empuje": 0.05
+        }
+      ],
+      "textos": [
+        {
+          "texto": "CORTA",
+          "desde": "corta",
+          "x": 330,
+          "y": 1640,
+          "tam": 50,
+          "color": "#3D7BFF"
+        },
+        {
+          "texto": "MEDIA",
+          "desde": "media",
+          "x": 540,
+          "y": 1640,
+          "tam": 50,
+          "color": "#2FD25A"
+        },
+        {
+          "texto": "LARGA",
+          "desde": "larga",
+          "x": 750,
+          "y": 1640,
+          "tam": 50,
+          "color": "#FF3B30"
+        }
+      ]
+    },
+    {
+      "narracion": "Sus picos están cerca de los cuatrocientos veinte, quinientos treinta y quinientos sesenta nanómetros. Y aquí está la clave: tu cerebro no mide longitudes de onda. Solo compara cuánto se activa cada tipo de cono.",
+      "titulares": [
+        {
+          "texto": "3 CONOS, 3 SEÑALES",
+          "acento": "3 SEÑALES"
+        },
+        {
+          "texto": "TU CEREBRO SOLO COMPARA",
+          "acento": "COMPARA",
+          "desde": "clave"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "espectro",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1450
+          ],
+          "empuje": 0
+        },
+        {
+          "svg": "curvas",
+          "dibujo": 2.2,
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "420 nm",
+          "desde": "veinte",
+          "x": 260,
+          "y": 1580,
+          "tam": 42,
+          "color": "#3D7BFF"
+        },
+        {
+          "texto": "530 nm",
+          "desde": "treinta",
+          "x": 470,
+          "y": 1580,
+          "tam": 42,
+          "color": "#2FD25A"
+        },
+        {
+          "texto": "560 nm",
+          "desde": "sesenta",
+          "x": 650,
+          "y": 1580,
+          "tam": 42,
+          "color": "#FF3B30"
+        }
+      ]
+    },
+    {
+      "narracion": "Thomas Young propuso esta idea en 1802. En 1861, James Clerk Maxwell la puso a prueba: él y el fotógrafo Thomas Sutton fotografiaron una cinta tres veces, cada vez tras un filtro distinto. Luego proyectaron las imágenes una por una. Primero encendieron el proyector rojo: solo se veía una cinta roja. Después, el verde. Y al encender el azul… apareció una de las primeras fotos en color.",
+      "titulares": [
+        {
+          "texto": "LA PRIMERA FOTO A COLOR",
+          "acento": "COLOR"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "proyectores",
+          "dibujo": 1.6,
+          "empuje": 0.03,
+          "pos": [
+            540,
+            1190
+          ]
+        },
+        {
+          "svg": "haz_r",
+          "desde": "rojo",
+          "dibujo": 0,
+          "modo": "add",
+          "opacidad": 28,
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11
+        },
+        {
+          "svg": "haz_g",
+          "desde": "verde",
+          "dibujo": 0,
+          "modo": "add",
+          "opacidad": 28,
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11
+        },
+        {
+          "svg": "haz_b",
+          "desde": "azul",
+          "dibujo": 0,
+          "modo": "add",
+          "opacidad": 28,
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11
+        },
+        {
+          "svg": "sep_r",
+          "desde": "rojo",
+          "dibujo": 0,
+          "modo": "add",
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11,
+          "pulsos": [
+            "apareció",
+            "color"
+          ]
+        },
+        {
+          "svg": "sep_g",
+          "desde": "verde",
+          "dibujo": 0,
+          "modo": "add",
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11,
+          "pulsos": [
+            "apareció",
+            "color"
+          ]
+        },
+        {
+          "svg": "sep_b",
+          "desde": "azul",
+          "dibujo": 0,
+          "modo": "add",
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11,
+          "pulsos": [
+            "apareció",
+            "color"
+          ]
+        },
+        {
+          "svg": "placa_r",
+          "desde": "rojo",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11
+        },
+        {
+          "svg": "placa_g",
+          "desde": "verde",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11
+        },
+        {
+          "svg": "placa_b",
+          "desde": "azul",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1190
+          ],
+          "empuje": 0.03,
+          "onda": 0,
+          "semilla": 11
+        }
+      ],
+      "tarjetas": [
+        {
+          "titulo": "THOMAS YOUNG",
+          "sub": "Inglaterra · 1802",
+          "desde": "thomas",
+          "pos": [
+            540,
+            735
+          ],
+          "hasta": "james"
+        },
+        {
+          "titulo": "JAMES CLERK MAXWELL",
+          "sub": "Escocia · 1861",
+          "desde": "james",
+          "pos": [
+            540,
+            735
+          ]
+        }
+      ],
+      "textos": [
+        {
+          "texto": "ROJO",
+          "desde": "rojo",
+          "x": 317,
+          "y": 1590,
+          "tam": 40,
+          "color": "#FF3B30"
+        },
+        {
+          "texto": "+ VERDE",
+          "desde": "verde",
+          "x": 540,
+          "y": 1590,
+          "tam": 40,
+          "color": "#2FD25A"
+        },
+        {
+          "texto": "+ AZUL",
+          "desde": "azul",
+          "x": 763,
+          "y": 1590,
+          "tam": 40,
+          "color": "#3D7BFF"
+        },
+        {
+          "texto": "= COLOR",
+          "desde": "apareció",
+          "y": 1665,
+          "tam": 56,
+          "color": "blanco"
+        }
+      ]
+    },
+    {
+      "narracion": "Eso es la mezcla aditiva: sumar luz. Rojo más verde da amarillo. Verde más azul, cian. Azul más rojo, magenta. Y los tres juntos… blanco.",
+      "titulares": [
+        {
+          "texto": "MEZCLA ADITIVA: SUMAR LUZ",
+          "acento": "SUMAR LUZ"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "luz_r",
+          "dibujo": 0,
+          "modo": "add",
+          "pos": [
+            430,
+            1050
+          ],
+          "desde_pos": [
+            180,
+            900
+          ],
+          "mov": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "luz_g",
+          "desde": "verde",
+          "dibujo": 0,
+          "modo": "add",
+          "pos": [
+            650,
+            1050
+          ],
+          "desde_pos": [
+            900,
+            900
+          ],
+          "mov": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "luz_b",
+          "desde": {
+            "palabra": "azul"
+          },
+          "dibujo": 0,
+          "modo": "add",
+          "pos": [
+            540,
+            1240
+          ],
+          "desde_pos": [
+            540,
+            1700
+          ],
+          "mov": 1.0,
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "AMARILLO",
+          "desde": "amarillo",
+          "x": 540,
+          "y": 780,
+          "tam": 46,
+          "color": "#FFE500"
+        },
+        {
+          "texto": "CIAN",
+          "desde": "cian",
+          "x": 850,
+          "y": 1420,
+          "tam": 46,
+          "color": "#00E5FF"
+        },
+        {
+          "texto": "MAGENTA",
+          "desde": "magenta",
+          "x": 230,
+          "y": 1420,
+          "tam": 46,
+          "color": "#FF2BD6"
+        },
+        {
+          "texto": "BLANCO",
+          "desde": "blanco",
+          "x": 540,
+          "y": 1600,
+          "tam": 56,
+          "color": "blanco"
+        }
+      ]
+    },
+    {
+      "narracion": "Tu pantalla hace exactamente eso. Cada píxel tiene tres luces diminutas, roja, verde y azul, que brillan con distinta intensidad. Mucho rojo, la mitad de verde y nada de azul… y tu ojo ve naranja.",
+      "titulares": [
+        {
+          "texto": "CADA PÍXEL = 3 LUCES",
+          "acento": "3 LUCES"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "pixeles",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.06
+        },
+        {
+          "svg": "pixel_naranja",
+          "desde": "mucho",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1130
+          ],
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "R 100% · G 50% · B 0%",
+          "desde": "mucho",
+          "y": 1640,
+          "tam": 52,
+          "color": "blanco"
+        },
+        {
+          "texto": "= NARANJA",
+          "desde": "naranja",
+          "y": 1720,
+          "tam": 60,
+          "color": "#FF8A00"
+        }
+      ]
+    },
+    {
+      "narracion": "Pero aquí viene lo raro: el amarillo de tu pantalla no contiene luz amarilla. Solo rojo y verde. Aun así, tus conos reciben la misma combinación de señales que con un amarillo puro, y tu cerebro no nota la diferencia. Esto se llama metamerismo.",
+      "titulares": [
+        {
+          "texto": "ESE AMARILLO ES FALSO",
+          "acento": "FALSO",
+          "color_acento": "#FFE500"
+        },
+        {
+          "texto": "METAMERISMO",
+          "acento": "METAMERISMO",
+          "desde": "metamerismo",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "amarillo",
+          "dibujo": 2.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "barras_conos",
+          "desde": "conos",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "AMARILLO PURO · 580 nm",
+          "desde": "puro",
+          "x": 300,
+          "y": 1650,
+          "tam": 38
+        },
+        {
+          "texto": "ROJO + VERDE",
+          "desde": "puro",
+          "x": 780,
+          "y": 1650,
+          "tam": 38
+        }
+      ]
+    },
+    {
+      "narracion": "Con la tinta pasa justo lo contrario. El papel blanco refleja toda la luz, y cada tinta funciona como un filtro: se come una parte de esa luz.",
+      "fondo": "#F2EFE6",
+      "titulares": [
+        {
+          "texto": "TINTA: RESTAR LUZ",
+          "acento": "RESTAR"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "papel",
+          "dibujo": 1.8,
+          "empuje": 0.04
+        }
+      ]
+    },
+    {
+      "narracion": "El cian absorbe el rojo. El magenta, el verde. Y el amarillo, el azul. Por eso cian, magenta y amarillo son los primarios de la tinta: cada uno le quita a la luz uno de sus tres colores.",
+      "fondo": "#F2EFE6",
+      "titulares": [
+        {
+          "texto": "CADA TINTA QUITA UN COLOR",
+          "acento": "QUITA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "tinta_c",
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "pos": [
+            430,
+            1050
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "tinta_m",
+          "desde": "magenta",
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "pos": [
+            650,
+            1050
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "tinta_y",
+          "desde": {
+            "palabra": "amarillo"
+          },
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "pos": [
+            540,
+            1240
+          ],
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "− ROJO",
+          "desde": "rojo",
+          "x": 230,
+          "y": 860,
+          "tam": 50,
+          "color": "#FF3B30"
+        },
+        {
+          "texto": "− VERDE",
+          "desde": "verde",
+          "x": 850,
+          "y": 860,
+          "tam": 50,
+          "color": "#1FA845"
+        },
+        {
+          "texto": "− AZUL",
+          "desde": "azul",
+          "x": 540,
+          "y": 1560,
+          "tam": 50,
+          "color": "#2F5BFF"
+        }
+      ]
+    },
+    {
+      "narracion": "Mezcla cian y amarillo, y solo sobrevive el verde. Magenta y amarillo dejan el rojo. Cian y magenta, el azul. Y las tres juntas deberían dar negro… pero en la práctica dan un café oscuro y sucio.",
+      "fondo": "#F2EFE6",
+      "titulares": [
+        {
+          "texto": "MEZCLA SUSTRACTIVA",
+          "acento": "SUSTRACTIVA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "tinta_c",
+          "dibujo": 0,
+          "modo": "multiply",
+          "pos": [
+            430,
+            1050
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "tinta_m",
+          "dibujo": 0,
+          "modo": "multiply",
+          "pos": [
+            650,
+            1050
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "tinta_y",
+          "dibujo": 0,
+          "modo": "multiply",
+          "pos": [
+            540,
+            1240
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "mancha_cafe",
+          "desde": "café",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1150
+          ],
+          "escala": 100,
+          "empuje": 0.02
+        }
+      ],
+      "textos": [
+        {
+          "texto": "VERDE",
+          "desde": "verde",
+          "x": 300,
+          "y": 1420,
+          "tam": 46,
+          "color": "#1FA845"
+        },
+        {
+          "texto": "ROJO",
+          "desde": "rojo",
+          "x": 790,
+          "y": 1420,
+          "tam": 46,
+          "color": "#FF3B30"
+        },
+        {
+          "texto": "AZUL",
+          "desde": "azul",
+          "x": 540,
+          "y": 800,
+          "tam": 46,
+          "color": "#2F5BFF"
+        }
+      ]
+    },
+    {
+      "narracion": "Por eso las impresoras añaden una cuarta tinta: el negro, la K de CMYK. Es más barato que gastar tres tintas, seca más rápido y hace el texto mucho más nítido.",
+      "fondo": "#F2EFE6",
+      "titulares": [
+        {
+          "texto": "LA K DE CMYK",
+          "acento": "K",
+          "tam": 150
+        }
+      ],
+      "capas": [
+        {
+          "svg": "muestras_negro",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.04
+        }
+      ],
+      "textos": [
+        {
+          "texto": "CMY",
+          "x": 330,
+          "y": 1450,
+          "tam": 48
+        },
+        {
+          "texto": "K",
+          "desde": "cuarta",
+          "x": 750,
+          "y": 1450,
+          "tam": 48
+        },
+        {
+          "texto": "MÁS BARATO · SECA RÁPIDO · TEXTO NÍTIDO",
+          "desde": "barato",
+          "y": 1640,
+          "tam": 42
+        }
+      ]
+    },
+    {
+      "narracion": "Y para los tonos intermedios, la imprenta no mezcla las tintas en un bote: imprime puntitos de distintos tamaños, cada color con un ángulo distinto. Acércate a una revista y los verás.",
+      "fondo": "#F2EFE6",
+      "titulares": [
+        {
+          "texto": "PUNTOS, NO MEZCLAS",
+          "acento": "PUNTOS"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "puntos_y",
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "empuje": 0.08
+        },
+        {
+          "svg": "puntos_c",
+          "desde": "puntitos",
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "empuje": 0.08
+        },
+        {
+          "svg": "puntos_m",
+          "desde": "tamaños",
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "empuje": 0.08
+        },
+        {
+          "svg": "puntos_k",
+          "desde": "ángulo",
+          "dibujo": 0,
+          "modo": "multiply",
+          "entrada": "pop",
+          "empuje": 0.08
+        }
+      ]
+    },
+    {
+      "narracion": "Ahora, el detalle que casi nadie cuenta: ni tu pantalla ni tu impresora pueden mostrar todos los colores que ves. Si dibujas todos los colores visibles, forman esta herradura. Con tres primarios solo puedes llenar un triángulo… y un triángulo nunca cubre toda la curva.",
+      "titulares": [
+        {
+          "texto": "NINGUNO LLEGA A TODOS",
+          "acento": "NINGUNO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "herradura",
+          "desde": "dibujas",
+          "dibujo": 2.4,
+          "empuje": 0.03
+        },
+        {
+          "svg": "gamut_rgb",
+          "desde": "triángulo",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "COLORES QUE VES",
+          "desde": "herradura",
+          "y": 1660,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "RGB",
+          "desde": "triángulo",
+          "x": 690,
+          "y": 1190,
+          "tam": 44,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Y RGB y CMYK ni siquiera cubren la misma zona. Por eso ese verde neón que ves en pantalla se apaga al imprimirlo. La luz de una pantalla empieza en negro y suma; la tinta empieza en blanco y resta.",
+      "titulares": [
+        {
+          "texto": "RGB ≠ CMYK",
+          "acento": "≠",
+          "tam": 150
+        }
+      ],
+      "capas": [
+        {
+          "svg": "herradura",
+          "dibujo": 0,
+          "empuje": 0.02
+        },
+        {
+          "svg": "gamut_rgb",
+          "dibujo": 0,
+          "empuje": 0.02
+        },
+        {
+          "svg": "gamut_cmyk",
+          "dibujo": 1.2,
+          "empuje": 0.02
+        }
+      ],
+      "textos": [
+        {
+          "texto": "CMYK (aprox.)",
+          "x": 300,
+          "y": 1420,
+          "tam": 40,
+          "color": "#00C8FF"
+        },
+        {
+          "texto": "PANTALLA: EMPIEZA EN NEGRO Y SUMA",
+          "desde": "pantalla",
+          "y": 1640,
+          "tam": 40,
+          "color": "blanco"
+        },
+        {
+          "texto": "TINTA: EMPIEZA EN BLANCO Y RESTA",
+          "desde": "tinta",
+          "y": 1710,
+          "tam": 40,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Un último secreto: el magenta no está en el arcoíris. No existe ninguna longitud de onda magenta. Es tu cerebro inventando un color cuando ve rojo y azul a la vez, sin verde. Así que, en el fondo, el color no está en la luz… está en ti.",
+      "titulares": [
+        {
+          "texto": "EL MAGENTA NO ESTÁ EN EL ARCOÍRIS",
+          "acento": "MAGENTA",
+          "color_acento": "#FF2BD6"
+        },
+        {
+          "texto": "EL COLOR ESTÁ EN TI",
+          "acento": "EN TI",
+          "desde": "fondo",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "espectro",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            540,
+            1200
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "puente_magenta",
+          "desde": "cerebro",
+          "dibujo": 1.2,
+          "pos": [
+            540,
+            1200
+          ],
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "380 nm",
+          "x": 190,
+          "y": 1290,
+          "tam": 38
+        },
+        {
+          "texto": "700 nm",
+          "x": 890,
+          "y": 1290,
+          "tam": 38
+        },
+        {
+          "texto": "¿?",
+          "desde": "ninguna",
+          "x": 540,
+          "y": 1442,
+          "tam": 60,
+          "color": "blanco"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "texto": "3 COLORES\nPARA VERLO\nTODO",
+    "acento": "3",
+    "centro": [
+      540,
+      1300
+    ],
+    "tam": 175,
+    "escala_ilustracion": 1,
+    "ilustraciones": [
+      {
+        "svg": "luz_r",
+        "pos": [
+          430,
+          1230
+        ],
+        "modo": "Screen"
+      },
+      {
+        "svg": "luz_g",
+        "pos": [
+          650,
+          1230
+        ],
+        "modo": "Screen"
+      },
+      {
+        "svg": "luz_b",
+        "pos": [
+          540,
+          1420
+        ],
+        "modo": "Screen"
+      }
+    ]
+  },
+  "fuentes": [
+    "Conos S/M/L con picos ~420/530/560 nm (rangos 420–440, 534–545, 564–580 según medición): https://en.wikipedia.org/wiki/Cone_cell",
+    "Teoría tricromática: Thomas Young 1802, desarrollada por Helmholtz y Maxwell",
+    "Maxwell y Thomas Sutton, cinta de tartán, 17 de mayo de 1861, Royal Institution, filtros rojo/verde/azul-violeta; 'una de las primeras' por debates historiográficos: https://en.wikipedia.org/wiki/Color_photography",
+    "K en CMYK: tintas CMY reales dan un tono oscuro turbio; negro más barato, seca mejor, texto nítido: https://en.wikipedia.org/wiki/CMYK_color_model",
+    "Metamerismo; magenta como color no espectral (no hay longitud de onda magenta)",
+    "Gamut: ningún conjunto de 3 primarios reales cubre el locus espectral CIE 1931; gamut CMYK dibujado de forma aproximada"
+  ]
+}

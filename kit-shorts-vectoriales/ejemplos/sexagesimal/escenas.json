@@ -1,0 +1,262 @@
+{
+  "titulo": "Por qué el tiempo va de 60 en 60",
+  "voz": {
+    "id": "d047b6a8f24f4d56ba818b08dbd9d089",
+    "velocidad": 1.1
+  },
+  "escenas": [
+    {
+      "narracion": "¿Por qué una hora tiene sesenta minutos… y no cien?",
+      "titulares": [
+        {
+          "texto": "¿POR QUÉ UNA HORA NO TIENE 100 MINUTOS?",
+          "acento": "NO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "reloj",
+          "dibujo": 1.2,
+          "empuje": 0.06,
+          "tictac": true
+        },
+        {
+          "svg": "reloj_manecillas",
+          "desde": {
+            "t": 0.6
+          },
+          "dibujo": 0.5,
+          "empuje": 0.06,
+          "rotacion": 140
+        }
+      ]
+    },
+    {
+      "narracion": "La culpa es de los sumerios. Hace más de cuatro mil años, en Mesopotamia, contaban en base sesenta.",
+      "titulares": [
+        {
+          "texto": "CULPA DE LOS SUMERIOS",
+          "acento": "SUMERIOS",
+          "tam": 130
+        }
+      ],
+      "capas": [
+        {
+          "svg": "tablilla",
+          "dibujo": 1.8,
+          "empuje": 0.07
+        }
+      ],
+      "textos": [
+        {
+          "texto": "MESOPOTAMIA · HACE +4,000 AÑOS",
+          "desde": "mesopotamia",
+          "y": 1680,
+          "tam": 54
+        }
+      ]
+    },
+    {
+      "narracion": "¿Por qué sesenta? Porque se divide exacto entre uno, dos, tres, cuatro, cinco, seis, diez, doce, quince, veinte, treinta y sesenta. Repartir era facilísimo.",
+      "titulares": [
+        {
+          "texto": "60 SE DIVIDE ENTRE 12 NÚMEROS",
+          "acento": "12"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "divisores",
+          "dibujo": 1.2,
+          "empuje": 0
+        }
+      ],
+      "anillo": {
+        "centro_texto": "60",
+        "valores": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          12,
+          15,
+          20,
+          30,
+          60
+        ],
+        "palabras": [
+          "uno",
+          "dos",
+          "tres",
+          "cuatro",
+          "cinco",
+          "seis",
+          "diez",
+          "doce",
+          "quince",
+          "veinte",
+          "treinta",
+          "sesenta"
+        ],
+        "saltar": {
+          "sesenta": 1
+        },
+        "radio": 340,
+        "tam": 62
+      }
+    },
+    {
+      "narracion": "Y una teoría dice que contaban con las manos: con el pulgar tocas las doce falanges de una mano, y con los cinco dedos de la otra llevas la cuenta. Doce por cinco: sesenta.",
+      "titulares": [
+        {
+          "texto": "12 × 5 = 60",
+          "acento": "60",
+          "tam": 160
+        }
+      ],
+      "capas": [
+        {
+          "svg": "mano",
+          "pos": [
+            540,
+            1150
+          ],
+          "dibujo": 1.6,
+          "empuje": 0.06
+        }
+      ],
+      "textos": [
+        {
+          "texto": "12 FALANGES × 5 DEDOS",
+          "desde": "falanges",
+          "y": 1700,
+          "tam": 58
+        }
+      ]
+    },
+    {
+      "narracion": "Los egipcios partieron el día en doce horas de luz y doce de noche. Y los astrónomos dividieron cada hora en sesenta partes diminutas, los minutos… y esas, una segunda vez: los segundos.",
+      "titulares": [
+        {
+          "texto": "12 + 12 HORAS",
+          "acento": "12 + 12",
+          "tam": 130
+        },
+        {
+          "texto": "MINUTO = PARTE DIMINUTA",
+          "acento": "PARTE DIMINUTA",
+          "desde": "astrónomos"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "dia_noche",
+          "dibujo": 1.4,
+          "empuje": 0.05
+        }
+      ],
+      "textos": [
+        {
+          "texto": "PARS MINUTA PRIMA → MINUTO",
+          "desde": "minutos",
+          "y": 1650,
+          "tam": 50
+        },
+        {
+          "texto": "PARS MINUTA SECUNDA → SEGUNDO",
+          "desde": "segundos",
+          "y": 1730,
+          "tam": 50,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "En 1793, Francia impuso el tiempo decimal: días de diez horas. Nadie lo usó, y duró menos de dos años.",
+      "titulares": [
+        {
+          "texto": "FRANCIA LO INTENTÓ Y FRACASÓ",
+          "acento": "FRACASÓ"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "reloj_decimal",
+          "dibujo": 1.3,
+          "empuje": 0.05
+        },
+        {
+          "svg": "reloj_decimal_x",
+          "desde": "nadie",
+          "dibujo": 0.45,
+          "empuje": 0,
+          "golpe": true
+        }
+      ],
+      "textos": [
+        {
+          "texto": "1793 · DÍAS DE 10 HORAS",
+          "desde": "días",
+          "y": 1680,
+          "tam": 56
+        }
+      ]
+    },
+    {
+      "narracion": "Así que cada vez que miras un reloj… estás leyendo matemáticas de hace cuatro mil años.",
+      "titulares": [
+        {
+          "texto": "ESTÁS LEYENDO BABILONIA",
+          "acento": "BABILONIA",
+          "tam": 130
+        }
+      ],
+      "capas": [
+        {
+          "svg": "tablilla",
+          "dibujo": 0,
+          "empuje": 0.03,
+          "escala": 95,
+          "opacidad": 22
+        },
+        {
+          "svg": "reloj",
+          "desde": {
+            "t": 0.3
+          },
+          "escala": 80,
+          "dibujo": 1.0,
+          "empuje": 0.05,
+          "tictac": true
+        },
+        {
+          "svg": "reloj_manecillas",
+          "desde": {
+            "t": 0.6
+          },
+          "escala": 80,
+          "dibujo": 0.4,
+          "empuje": 0.05,
+          "rotacion": 140
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "texto": "¿POR QUÉ 60\nY NO 100?",
+    "acento": "60",
+    "ilustraciones": [
+      "reloj",
+      "reloj_manecillas"
+    ]
+  },
+  "fuentes": [
+    "Sistema sexagesimal sumerio-babilonio (III milenio a. C.)",
+    "Conteo por falanges: hipótesis, no hecho probado",
+    "minuto < pars minuta prima; segundo < pars minuta secunda",
+    "Tiempo decimal francés: nov. 1793 – abril 1795"
+  ]
+}

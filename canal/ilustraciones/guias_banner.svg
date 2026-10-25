@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2560" height="1440" viewBox="0 0 2560 1440">
+  <title>Untitled-1</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 508 L2560 508 L2560 931 L0 931 Z" fill="none" stroke="#00e5ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24 14"/>
+    <path d="M507 508 L2053 508 L2053 931 L507 931 Z" fill="none" stroke="#ffe500" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

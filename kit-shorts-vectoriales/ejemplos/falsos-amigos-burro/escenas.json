@@ -1,0 +1,948 @@
+{
+  "titulo": "Burro: el falso amigo que es mantequilla",
+  "voz": {
+    "id": "d047b6a8f24f4d56ba818b08dbd9d089",
+    "velocidad": 1.1
+  },
+  "escenas": [
+    {
+      "narracion": "Si en Italia pides un panino con burro, no te van a servir ningún animal… te van a dar pan con mantequilla. Misma palabra, dos significados que no tienen nada que ver.",
+      "titulares": [
+        {
+          "texto": "UN BURRO EN TU PAN",
+          "acento": "BURRO",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "panino",
+          "dibujo": 1.4,
+          "empuje": 0.04
+        },
+        {
+          "svg": "burro",
+          "desde": "animal",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 32,
+          "pos": [
+            830,
+            860
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "tacha",
+          "desde": {
+            "palabra": "animal",
+            "t": 0.4
+          },
+          "dibujo": 0.4,
+          "escala": 32,
+          "pos": [
+            830,
+            860
+          ],
+          "empuje": 0.02,
+          "golpe": true
+        },
+        {
+          "svg": "mantequilla",
+          "desde": "mantequilla",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 34,
+          "pos": [
+            250,
+            860
+          ],
+          "empuje": 0.02
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BURRO = MANTEQUILLA",
+          "desde": "palabra",
+          "y": 1680,
+          "tam": 56,
+          "color": "acento",
+          "acento": "MANTEQUILLA"
+        }
+      ]
+    },
+    {
+      "narracion": "A esto los lingüistas le llaman falsos amigos: palabras que se ven o suenan igual en dos idiomas, pero significan cosas distintas. El término se popularizó en 1928, con un libro de dos autores franceses.",
+      "titulares": [
+        {
+          "texto": "FALSOS AMIGOS",
+          "acento": "FALSOS",
+          "tam": 150
+        }
+      ],
+      "capas": [
+        {
+          "svg": "burbujas",
+          "dibujo": 1.2,
+          "empuje": 0.04
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BURRO",
+          "desde": "palabras",
+          "x": 360,
+          "y": 1030,
+          "tam": 70,
+          "color": "blanco"
+        },
+        {
+          "texto": "BURRO",
+          "desde": "igual",
+          "x": 720,
+          "y": 1230,
+          "tam": 70,
+          "color": "blanco"
+        },
+        {
+          "texto": "ESPAÑOL",
+          "desde": "palabras",
+          "x": 360,
+          "y": 1150,
+          "tam": 40
+        },
+        {
+          "texto": "ITALIANO",
+          "desde": "igual",
+          "x": 720,
+          "y": 1350,
+          "tam": 40
+        }
+      ],
+      "tarjetas": [
+        {
+          "titulo": "KOESSLER & DEROCQUIGNY",
+          "sub": "Francia · 1928",
+          "desde": "término",
+          "pos": [
+            540,
+            1600
+          ]
+        }
+      ]
+    },
+    {
+      "narracion": "Entre el italiano y el español hay muchísimos. En Italia, salire significa subir. Guardare es mirar. Y si te dicen que la sopa está caldo… te están avisando que está caliente.",
+      "titulares": [
+        {
+          "texto": "NO SON LO QUE PARECEN",
+          "acento": "NO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "escalera",
+          "desde": "salire",
+          "dibujo": 0.8,
+          "entrada": "pop",
+          "escala": 42,
+          "pos": [
+            230,
+            1100
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "ojo_icono",
+          "desde": "guardare",
+          "dibujo": 0.8,
+          "entrada": "pop",
+          "escala": 42,
+          "pos": [
+            540,
+            1100
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "sopa",
+          "desde": "caldo",
+          "dibujo": 0.8,
+          "entrada": "pop",
+          "escala": 42,
+          "pos": [
+            850,
+            1100
+          ],
+          "empuje": 0.02,
+          "temblor": 1.5,
+          "temblor_en": [
+            "caliente",
+            {
+              "palabra": "caliente",
+              "t": 1.0
+            }
+          ]
+        }
+      ],
+      "textos": [
+        {
+          "texto": "SALIRE",
+          "desde": "salire",
+          "x": 230,
+          "y": 1340,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "= SUBIR",
+          "desde": "subir",
+          "x": 230,
+          "y": 1410,
+          "tam": 40,
+          "color": "acento"
+        },
+        {
+          "texto": "GUARDARE",
+          "desde": "guardare",
+          "x": 540,
+          "y": 1340,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "= MIRAR",
+          "desde": "mirar",
+          "x": 540,
+          "y": 1410,
+          "tam": 40,
+          "color": "acento"
+        },
+        {
+          "texto": "CALDO",
+          "desde": "caldo",
+          "x": 850,
+          "y": 1340,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "= CALIENTE",
+          "desde": "avisando",
+          "x": 850,
+          "y": 1410,
+          "tam": 40,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Pero el burro es un caso especial. No es una palabra que cambió de significado al cruzar la frontera: son dos palabras distintas, con orígenes distintos, que por pura casualidad terminaron escribiéndose igual.",
+      "titulares": [
+        {
+          "texto": "DOS PALABRAS, UNA CASUALIDAD",
+          "acento": "CASUALIDAD"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "raices",
+          "desde": "palabras",
+          "dibujo": 2.2,
+          "empuje": 0.04
+        },
+        {
+          "svg": "nudo_burro",
+          "desde": "casualidad",
+          "dibujo": 0.4,
+          "entrada": "pop",
+          "empuje": 0.04,
+          "golpe": true
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BURRO",
+          "desde": "casualidad",
+          "y": 760,
+          "tam": 80,
+          "color": "blanco"
+        },
+        {
+          "texto": "ORIGEN 1",
+          "desde": "orígenes",
+          "x": 250,
+          "y": 1560,
+          "tam": 40,
+          "color": "acento"
+        },
+        {
+          "texto": "ORIGEN 2",
+          "desde": "orígenes",
+          "x": 830,
+          "y": 1560,
+          "tam": 40,
+          "color": "gris"
+        }
+      ]
+    },
+    {
+      "narracion": "Empecemos por la mantequilla. Su viaje arranca en Grecia, con la palabra boútyron. Probablemente significaba queso de vaca: bous, vaca… y tyrós, queso.",
+      "titulares": [
+        {
+          "texto": "QUESO DE VACA",
+          "acento": "VACA",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "vaca",
+          "desde": "vaca",
+          "dibujo": 1.2,
+          "entrada": "pop",
+          "escala": 58,
+          "pos": [
+            300,
+            1100
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "queso",
+          "desde": "queso",
+          "dibujo": 0.8,
+          "entrada": "pop",
+          "escala": 58,
+          "pos": [
+            790,
+            1110
+          ],
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BOÚTYRON",
+          "desde": "boútyron",
+          "y": 830,
+          "tam": 90,
+          "color": "acento"
+        },
+        {
+          "texto": "+",
+          "desde": "queso",
+          "x": 545,
+          "y": 1110,
+          "tam": 110,
+          "color": "blanco"
+        },
+        {
+          "texto": "BOUS = VACA",
+          "desde": "bous",
+          "x": 300,
+          "y": 1420,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "TYRÓS = QUESO",
+          "desde": "bous",
+          "x": 790,
+          "y": 1420,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "GRIEGO",
+          "desde": "grecia",
+          "y": 1660,
+          "tam": 40
+        }
+      ]
+    },
+    {
+      "narracion": "Lo curioso es que griegos y romanos casi no la comían. Para ellos era cosa de pueblos del norte: a los tracios los llamaban comedores de mantequilla, y los romanos la usaban sobre todo como ungüento para las quemaduras.",
+      "titulares": [
+        {
+          "texto": "COMIDA DE BÁRBAROS",
+          "acento": "BÁRBAROS"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "tarro",
+          "dibujo": 1.2,
+          "empuje": 0.04
+        },
+        {
+          "svg": "venda",
+          "desde": "ungüento",
+          "dibujo": 0.6,
+          "entrada": "pop",
+          "escala": 60,
+          "pos": [
+            800,
+            1300
+          ],
+          "empuje": 0.02
+        }
+      ],
+      "textos": [
+        {
+          "texto": "«COMEDORES DE MANTEQUILLA»",
+          "desde": "comedores",
+          "y": 790,
+          "tam": 44,
+          "color": "acento"
+        },
+        {
+          "texto": "UNGÜENTO",
+          "desde": "ungüento",
+          "y": 1660,
+          "tam": 56,
+          "color": "blanco"
+        }
+      ],
+      "tarjetas": [
+        {
+          "titulo": "PLINIO EL VIEJO",
+          "sub": "Roma · siglo I",
+          "desde": "romanos",
+          "pos": [
+            540,
+            1740
+          ]
+        }
+      ]
+    },
+    {
+      "narracion": "Aun así, la palabra siguió viajando. En latín se volvió butyrum. En francés antiguo, burre. Y de ahí llegó al italiano… burro.",
+      "titulares": [
+        {
+          "texto": "EL VIAJE DE UNA PALABRA",
+          "acento": "VIAJE"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "cadena4",
+          "dibujo": 2.5,
+          "empuje": 0.03
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BOÚTYRON · GRIEGO",
+          "desde": "viajando",
+          "y": 840,
+          "tam": 52,
+          "color": "blanco"
+        },
+        {
+          "texto": "BUTYRUM · LATÍN",
+          "desde": "butyrum",
+          "y": 1020,
+          "tam": 52,
+          "color": "blanco"
+        },
+        {
+          "texto": "BURRE · FRANCÉS ANTIGUO",
+          "desde": "burre",
+          "y": 1200,
+          "tam": 52,
+          "color": "blanco"
+        },
+        {
+          "texto": "BURRO · ITALIANO",
+          "desde": "llegó",
+          "y": 1380,
+          "tam": 60,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "La misma raíz dio butter en inglés y en alemán, y beurre en francés. Y en español sobrevive escondida: en el ácido butírico, el que hace oler a rancio la mantequilla vieja.",
+      "titulares": [
+        {
+          "texto": "UNA RAÍZ, MUCHAS MANTEQUILLAS",
+          "acento": "RAÍZ"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "radial",
+          "dibujo": 1.6,
+          "empuje": 0.03
+        },
+        {
+          "svg": "matraz",
+          "desde": "butírico",
+          "dibujo": 0.8,
+          "entrada": "pop",
+          "escala": 55,
+          "pos": [
+            540,
+            1480
+          ],
+          "empuje": 0.02,
+          "temblor": 1.2
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BUTYRUM",
+          "y": 1000,
+          "tam": 64,
+          "color": "acento"
+        },
+        {
+          "texto": "BUTTER",
+          "desde": "butter",
+          "x": 220,
+          "y": 760,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "BUTTER",
+          "desde": "alemán",
+          "x": 860,
+          "y": 760,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "BEURRE",
+          "desde": "beurre",
+          "x": 220,
+          "y": 1250,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "BURRO",
+          "desde": "raíz",
+          "x": 860,
+          "y": 1250,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "ÁCIDO BUTÍRICO",
+          "desde": "butírico",
+          "y": 1720,
+          "tam": 50,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Ahora, el otro burro. En el latín tardío existía burricus, que significaba caballo pequeño. De ahí salió borrico… y de borrico, burro.",
+      "titulares": [
+        {
+          "texto": "EL OTRO BURRO",
+          "acento": "OTRO",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "burro",
+          "dibujo": 1.8,
+          "empuje": 0.04,
+          "pos": [
+            540,
+            1100
+          ]
+        }
+      ],
+      "textos": [
+        {
+          "texto": "«CABALLO PEQUEÑO»",
+          "desde": "caballo",
+          "y": 790,
+          "tam": 48,
+          "color": "acento"
+        },
+        {
+          "texto": "BURRICUS →",
+          "desde": "burricus",
+          "x": 230,
+          "y": 1640,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "BORRICO →",
+          "desde": "ahí",
+          "x": 560,
+          "y": 1640,
+          "tam": 46,
+          "color": "blanco"
+        },
+        {
+          "texto": "BURRO",
+          "desde": "borrico",
+          "x": 860,
+          "y": 1640,
+          "tam": 52,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "¿Y de dónde venía burricus? Nadie lo sabe con certeza. Quizá de burrus, rojizo, por el color de su pelaje… o de burra, lana, por su pelo áspero.",
+      "titulares": [
+        {
+          "texto": "UN ORIGEN MISTERIOSO",
+          "acento": "MISTERIOSO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "interrogacion",
+          "dibujo": 1.0,
+          "empuje": 0.04,
+          "pos": [
+            540,
+            960
+          ],
+          "escala": 70,
+          "ritmo": {
+            "bpm": 90,
+            "tap": 6
+          }
+        },
+        {
+          "svg": "muestra_rojiza",
+          "desde": "burrus",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 45,
+          "pos": [
+            290,
+            1330
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "lana",
+          "desde": {
+            "palabra": "burra"
+          },
+          "dibujo": 1.0,
+          "entrada": "pop",
+          "escala": 45,
+          "pos": [
+            790,
+            1330
+          ],
+          "empuje": 0.02
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BURRUS = ROJIZO",
+          "desde": "rojizo",
+          "x": 290,
+          "y": 1580,
+          "tam": 42,
+          "color": "blanco"
+        },
+        {
+          "texto": "BURRA = LANA",
+          "desde": "lana",
+          "x": 790,
+          "y": 1580,
+          "tam": 42,
+          "color": "blanco"
+        }
+      ]
+    },
+    {
+      "narracion": "Mientras tanto, la palabra clásica para este animal era asinus, de donde vienen asno en español y asino en italiano. Por eso en Italia el animal se llama asino… y la palabra burro quedó libre para la mantequilla.",
+      "titulares": [
+        {
+          "texto": "EN ITALIA, EL BURRO ES ASINO",
+          "acento": "ASINO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "burro",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "escala": 80,
+          "pos": [
+            540,
+            1080
+          ]
+        },
+        {
+          "svg": "mantequilla",
+          "desde": {
+            "palabra": "asino",
+            "n": 2
+          },
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 40,
+          "pos": [
+            860,
+            860
+          ],
+          "empuje": 0.02,
+          "golpe": true
+        }
+      ],
+      "textos": [
+        {
+          "texto": "ASINUS · LATÍN",
+          "desde": "asinus",
+          "y": 1460,
+          "tam": 48,
+          "color": "blanco"
+        },
+        {
+          "texto": "ASNO · ESPAÑOL",
+          "desde": "asno",
+          "x": 300,
+          "y": 1560,
+          "tam": 42
+        },
+        {
+          "texto": "ASINO · ITALIANO",
+          "desde": {
+            "palabra": "asino"
+          },
+          "x": 790,
+          "y": 1560,
+          "tam": 42,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "¿Y por qué nosotros no le decimos burro a la mantequilla? Porque el español eligió otra palabra: manteca, de origen incierto, probablemente anterior a los romanos. Y de manteca… mantequilla.",
+      "titulares": [
+        {
+          "texto": "EL ESPAÑOL ELIGIÓ MANTECA",
+          "acento": "MANTECA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "mantequilla",
+          "dibujo": 1.2,
+          "empuje": 0.04,
+          "pos": [
+            540,
+            1080
+          ],
+          "escala": 85
+        }
+      ],
+      "textos": [
+        {
+          "texto": "ORIGEN INCIERTO · ¿PRERROMANO?",
+          "desde": "incierto",
+          "y": 1500,
+          "tam": 42,
+          "color": "blanco"
+        },
+        {
+          "texto": "MANTECA → MANTEQUILLA",
+          "desde": {
+            "palabra": "manteca",
+            "n": 2
+          },
+          "y": 1640,
+          "tam": 54,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Y aquí viene el giro: el italiano también le tomó prestada esa palabra al español. Cuando un chef italiano hace mantecare un risotto, batiéndolo con mantequilla, está usando una palabra que viene de manteca.",
+      "titulares": [
+        {
+          "texto": "EL GIRO: MANTECARE",
+          "acento": "MANTECARE",
+          "tam": 130
+        }
+      ],
+      "capas": [
+        {
+          "svg": "olla",
+          "dibujo": 1.2,
+          "empuje": 0.03
+        },
+        {
+          "svg": "cuchara",
+          "desde": "batiéndolo",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 110,
+            "vaiven": 18
+          }
+        },
+        {
+          "svg": "vapor",
+          "desde": "risotto",
+          "dibujo": 0.8,
+          "empuje": 0.03,
+          "onda": 5
+        }
+      ],
+      "textos": [
+        {
+          "texto": "MANTECA (ES) → MANTECARE (IT)",
+          "desde": "viene",
+          "y": 1660,
+          "tam": 46,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Así que dos palabras recorrieron caminos completamente distintos: una nació en Grecia como queso de vaca, la otra en un caballito del latín tardío. Y miles de años después, chocaron en la misma forma: burro.",
+      "titulares": [
+        {
+          "texto": "DOS CAMINOS, UNA PALABRA",
+          "acento": "UNA PALABRA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "raices",
+          "dibujo": 0,
+          "empuje": 0.05
+        },
+        {
+          "svg": "vaca",
+          "desde": "grecia",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 30,
+          "pos": [
+            250,
+            1420
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "burro",
+          "desde": "caballito",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 30,
+          "pos": [
+            830,
+            1420
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "nudo_burro",
+          "desde": "chocaron",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.05,
+          "golpe": true
+        }
+      ],
+      "textos": [
+        {
+          "texto": "BURRO",
+          "desde": "chocaron",
+          "y": 760,
+          "tam": 80,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "La próxima vez que veas burro en un menú italiano, ya lo sabes: no es el animal… es una vaca griega que lleva más de dos mil años viajando.",
+      "titulares": [
+        {
+          "texto": "UNA VACA GRIEGA EN TU PAN",
+          "acento": "VACA GRIEGA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "panino",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.04
+        },
+        {
+          "svg": "vaca",
+          "desde": "vaca",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 34,
+          "pos": [
+            820,
+            860
+          ],
+          "empuje": 0.02,
+          "ritmo": {
+            "bpm": 90,
+            "tap": 5
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "+2,000 AÑOS DE VIAJE",
+          "desde": "años",
+          "y": 1660,
+          "tam": 52,
+          "color": "acento"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "texto": "BURRO\nES\nMANTEQUILLA",
+    "acento": "MANTEQUILLA",
+    "ilustraciones": [
+      {
+        "svg": "burro",
+        "pos": [
+          400,
+          1350
+        ],
+        "escala": 70
+      },
+      {
+        "svg": "mantequilla",
+        "pos": [
+          820,
+          1540
+        ],
+        "escala": 45
+      }
+    ],
+    "tam": 170
+  },
+  "fuentes": [
+    "burro (it.): del francés antiguo burre < latín butyrum < griego boútyron, probablemente 'queso de vaca' (bous + tyrós); quizá etimología popular de una voz escita: https://www.etymonline.com/es/word/butter · Treccani (vía es/ja.wiktionary)",
+    "burro/borrico (es.): del latín tardío burricus 'caballo pequeño' (RAE, s. v. borrica: https://dle.rae.es/borrica); origen último incierto: burrus 'rojizo' o burra 'lana' (https://www.etymonline.com/word/burro)",
+    "asno < latín asinus; italiano asino",
+    "Mantequilla en Grecia y Roma: Plinio el Viejo la llama manjar de los bárbaros; los romanos la usaban como ungüento; los griegos llamaban a los tracios 'comedores de mantequilla' (Anaxandrides): https://nunc.ch/en/yoghurt-barbarian-delicacy-for-roman-palates/ · https://atlasobscura.com/articles/history-of-milk",
+    "Término 'faux amis': Koessler y Derocquigny, 1928: https://en.wikipedia.org/wiki/False_friend",
+    "manteca: origen incierto, probablemente prerromano (Corominas; DiCCA-XV); mantecare (it.) desde el español manteca (Accademia della Crusca): https://www.linkiesta.it/2023/05/mantecare-accademia-della-crusca/",
+    "ácido butírico: de butyrum (etymonline 'butyric')"
+  ],
+  "estilo": {
+    "tema": "libreta"
+  }
+}

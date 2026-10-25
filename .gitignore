@@ -1,0 +1,15 @@
+# Secretos: la clave de Fish Audio vive solo en .env (nunca se sube)
+.env
+.env.*
+
+# Proyectos de video: se ignora su contenido, pero se conserva la carpeta
+proyectos/*
+!proyectos/.gitkeep
+
+# Dependencias y cachés
+node_modules/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store

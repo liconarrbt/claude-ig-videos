@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <title>Untitled-1</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <path d="M0 0 L800 0 L800 800 L0 800 Z" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 57.143 L800 57.143" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 114.286 L800 114.286" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 171.429 L800 171.429" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 228.571 L800 228.571" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 285.714 L800 285.714" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 342.857 L800 342.857" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 400 L800 400" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 457.143 L800 457.143" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 514.286 L800 514.286" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 571.429 L800 571.429" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 628.571 L800 628.571" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 685.714 L800 685.714" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 742.857 L800 742.857" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M57.143 0 L57.143 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M114.286 0 L114.286 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M171.429 0 L171.429 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M228.571 0 L228.571 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M285.714 0 L285.714 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M342.857 0 L342.857 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M400 0 L400 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M457.143 0 L457.143 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M514.286 0 L514.286 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M571.429 0 L571.429 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M628.571 0 L628.571 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M685.714 0 L685.714 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M742.857 0 L742.857 800" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

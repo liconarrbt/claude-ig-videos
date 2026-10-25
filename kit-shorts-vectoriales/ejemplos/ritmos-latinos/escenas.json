@@ -1,0 +1,1110 @@
+{
+  "titulo": "Por qué los ritmos latinos te hacen moverte",
+  "voz": {
+    "id": "d047b6a8f24f4d56ba818b08dbd9d089",
+    "velocidad": 1.1
+  },
+  "mezcla": {
+    "musica_db": -10,
+    "pops_db": -11,
+    "whoosh_db": -15
+  },
+  "escenas": [
+    {
+      "narracion": "Suena una cumbia y, sin decidirlo, tu pie ya está marcando el ritmo. Luego los hombros, la cabeza… No es solo costumbre: tu cerebro está cayendo en una trampa rítmica muy precisa.",
+      "titulares": [
+        {
+          "texto": "¿POR QUÉ NO PUEDES QUEDARTE QUIETO?",
+          "acento": "QUIETO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "suelo",
+          "dibujo": 0.8,
+          "empuje": 0.03
+        },
+        {
+          "svg": "pie",
+          "dibujo": 1.2,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "tap": -12
+          },
+          "pos": [
+            390.0,
+            1130
+          ]
+        },
+        {
+          "svg": "notas",
+          "desde": "ritmo",
+          "dibujo": 0.6,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 8
+          }
+        }
+      ]
+    },
+    {
+      "narracion": "Cuando escuchas un pulso claro, se encienden zonas del cerebro que sirven para moverte: los ganglios basales y el área motora suplementaria. Tu cuerpo ensaya el baile aunque estés sentado.",
+      "titulares": [
+        {
+          "texto": "TU CEREBRO ENSAYA EL BAILE",
+          "acento": "ENSAYA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "cerebro",
+          "dibujo": 1.8,
+          "empuje": 0.04
+        },
+        {
+          "svg": "zona_gb",
+          "desde": "ganglios",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.04,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.35
+          }
+        },
+        {
+          "svg": "zona_sma",
+          "desde": "motora",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.04,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.35,
+            "desfase": 0.5
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "titulo": "GRAHN & BRETT",
+          "sub": "Reino Unido · 2007",
+          "desde": "ganglios",
+          "pos": [
+            540,
+            1690
+          ]
+        }
+      ]
+    },
+    {
+      "narracion": "Y es que tu cerebro es una máquina de predecir. Escucha uno, dos, tres… y ya está esperando el cuatro, antes de que suene.",
+      "titulares": [
+        {
+          "texto": "PREDECIR EL SIGUIENTE GOLPE",
+          "acento": "PREDECIR"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "linea_tiempo",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "golpe",
+          "desde": "uno",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            290,
+            1130
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "golpe",
+          "desde": "dos",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            440,
+            1130
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "golpe",
+          "desde": "tres",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            590,
+            1130
+          ],
+          "empuje": 0.02
+        },
+        {
+          "svg": "golpe_pred",
+          "desde": "esperando",
+          "dibujo": 0.5,
+          "pos": [
+            740,
+            1130
+          ],
+          "empuje": 0.02,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.25
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "1",
+          "desde": "uno",
+          "x": 290,
+          "y": 1260,
+          "tam": 60,
+          "color": "blanco"
+        },
+        {
+          "texto": "2",
+          "desde": "dos",
+          "x": 440,
+          "y": 1260,
+          "tam": 60,
+          "color": "blanco"
+        },
+        {
+          "texto": "3",
+          "desde": "tres",
+          "x": 590,
+          "y": 1260,
+          "tam": 60,
+          "color": "blanco"
+        },
+        {
+          "texto": "4?",
+          "desde": "esperando",
+          "x": 740,
+          "y": 1260,
+          "tam": 60,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Si todo cae justo donde lo espera, como un metrónomo, se aburre. No hay nada que completar.",
+      "titulares": [
+        {
+          "texto": "PREDECIBLE = ABURRIDO",
+          "acento": "ABURRIDO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "metronomo",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "metronomo_brazo",
+          "dibujo": 0.5,
+          "empuje": 0.03,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "vaiven": 26
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "TIC · TAC · TIC · TAC",
+          "desde": "metrónomo",
+          "y": 1680,
+          "tam": 50
+        }
+      ]
+    },
+    {
+      "narracion": "Pero si un golpe llega antes de tiempo, o falta donde debía estar, aparece un hueco. Eso es la síncopa… y tu cuerpo siente la necesidad de llenarlo.",
+      "titulares": [
+        {
+          "texto": "LA SÍNCOPA DEJA HUECOS",
+          "acento": "HUECOS"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "rejilla",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "sinc_golpes",
+          "desde": "golpe",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "sinc_flecha",
+          "desde": "antes",
+          "dibujo": 0.6,
+          "empuje": 0.03
+        },
+        {
+          "svg": "sinc_hueco",
+          "desde": "hueco",
+          "dibujo": 0.5,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.3
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "SÍNCOPA",
+          "desde": "síncopa",
+          "y": 1500,
+          "tam": 70,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "En 2014, Maria Witek y su equipo pidieron a voluntarios que calificaran cincuenta ritmos de batería. Las ganas de bailar fueron máximas con una síncopa intermedia: con poca, aburre; con demasiada, te pierdes.",
+      "titulares": [
+        {
+          "texto": "EL PUNTO DULCE",
+          "acento": "DULCE",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "curva_u",
+          "desde": "cincuenta",
+          "dibujo": 1.8,
+          "empuje": 0.03
+        },
+        {
+          "svg": "punto_medio",
+          "desde": "intermedia",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 10
+          }
+        },
+        {
+          "svg": "punto_poca",
+          "desde": "poca",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "punto_mucha",
+          "desde": "demasiada",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03
+        }
+      ],
+      "tarjetas": [
+        {
+          "titulo": "MARIA WITEK Y EQUIPO",
+          "sub": "Aarhus y Oxford · 2014",
+          "desde": "witek",
+          "pos": [
+            540,
+            760
+          ]
+        }
+      ],
+      "textos": [
+        {
+          "texto": "INTERMEDIA",
+          "desde": "intermedia",
+          "x": 550,
+          "y": 900,
+          "tam": 50,
+          "color": "acento"
+        },
+        {
+          "texto": "POCA",
+          "desde": "poca",
+          "x": 338,
+          "y": 1250,
+          "tam": 42
+        },
+        {
+          "texto": "DEMASIADA",
+          "desde": "demasiada",
+          "x": 772,
+          "y": 1250,
+          "tam": 42
+        },
+        {
+          "texto": "SÍNCOPA →",
+          "desde": "cincuenta",
+          "y": 1470,
+          "tam": 40
+        }
+      ]
+    },
+    {
+      "narracion": "Aquí entra la música latina. Su columna vertebral es la clave: cinco golpes repartidos de forma asimétrica en dos compases. Tres de un lado… y dos del otro.",
+      "titulares": [
+        {
+          "texto": "LA CLAVE: 3 + 2",
+          "acento": "3 + 2",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "clave_collar",
+          "dibujo": 1.4,
+          "empuje": 0.03
+        },
+        {
+          "svg": "clave_golpes",
+          "desde": "cinco",
+          "dibujo": 0.8,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "manecilla",
+          "desde": "clave",
+          "dibujo": 0,
+          "onda": 0,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "vuelta": 8
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "3",
+          "desde": "tres",
+          "x": 985,
+          "y": 1130,
+          "tam": 130,
+          "color": "acento"
+        },
+        {
+          "texto": "2",
+          "desde": "lado",
+          "x": 95,
+          "y": 1130,
+          "tam": 130,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Este patrón no nació en un estudio. Viene de los patrones de campana de África occidental, cruzó el océano con las personas esclavizadas y se volvió el corazón del son cubano… y de ahí, de la salsa.",
+      "titulares": [
+        {
+          "texto": "UN RITMO QUE CRUZÓ EL OCÉANO",
+          "acento": "OCÉANO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "mapa",
+          "dibujo": 1.6,
+          "empuje": 0.03
+        },
+        {
+          "svg": "ruta",
+          "desde": "cruzó",
+          "dibujo": 1.6,
+          "empuje": 0.03
+        },
+        {
+          "svg": "clave_golpes",
+          "desde": "corazón",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 28,
+          "pos": [
+            560,
+            840
+          ],
+          "empuje": 0.02,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 8
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "ÁFRICA OCCIDENTAL",
+          "desde": "áfrica",
+          "x": 800,
+          "y": 1320,
+          "tam": 40,
+          "color": "blanco"
+        },
+        {
+          "texto": "OCÉANO ATLÁNTICO",
+          "desde": "cruzó",
+          "x": 600,
+          "y": 1065,
+          "tam": 34
+        },
+        {
+          "texto": "CUBA",
+          "desde": "océano",
+          "x": 184,
+          "y": 1050,
+          "tam": 44,
+          "color": "acento"
+        },
+        {
+          "texto": "SON → SALSA",
+          "desde": "cubano",
+          "y": 1690,
+          "tam": 56,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Encima se apilan capas: la conga, la campana, el güiro, el bajo. Cada una toca su propio patrón, y muchas chocan tres contra dos. Hay síncopa por todas partes, pero siempre queda un pulso al que agarrarse.",
+      "titulares": [
+        {
+          "texto": "CAPAS QUE ENCAJAN",
+          "acento": "ENCAJAN"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "anillo_clave",
+          "dibujo": 0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "anillo_conga",
+          "desde": "conga",
+          "dibujo": 0.6,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "anillo_campana",
+          "desde": "campana",
+          "dibujo": 0.6,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "anillo_guiro",
+          "desde": "güiro",
+          "dibujo": 0.6,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "anillo_bajo",
+          "desde": "bajo",
+          "dibujo": 0.6,
+          "entrada": "pop",
+          "empuje": 0.03
+        },
+        {
+          "svg": "manecilla_grande",
+          "dibujo": 0,
+          "onda": 0,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "vuelta": 8
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "CLAVE · CONGA · CAMPANA · GÜIRO · BAJO",
+          "desde": "bajo",
+          "y": 1650,
+          "tam": 38
+        },
+        {
+          "texto": "3 CONTRA 2",
+          "desde": "contra",
+          "y": 1720,
+          "tam": 50,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Tres contra dos significa que, en el mismo espacio, un instrumento toca tres golpes y otro toca dos. Los dos pulsos conviven, y tu cuerpo puede seguir cualquiera: la cadera uno, los pies el otro.",
+      "titulares": [
+        {
+          "texto": "TRES CONTRA DOS",
+          "acento": "TRES",
+          "color_acento": "#FF6A1A"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "filas_32",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "dot_o",
+          "desde": "tres",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            340,
+            1050
+          ],
+          "empuje": 0.02,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "cada": 2,
+            "destello": 0.3,
+            "desfase": 0
+          }
+        },
+        {
+          "svg": "dot_o",
+          "desde": "tres",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            507,
+            1050
+          ],
+          "empuje": 0.02,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "cada": 2,
+            "destello": 0.3,
+            "desfase": 0.3333
+          }
+        },
+        {
+          "svg": "dot_o",
+          "desde": "tres",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            673,
+            1050
+          ],
+          "empuje": 0.02,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "cada": 2,
+            "destello": 0.3,
+            "desfase": 0.6667
+          }
+        },
+        {
+          "svg": "dot_b",
+          "desde": "dos",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            340,
+            1270
+          ],
+          "empuje": 0.02,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "cada": 2,
+            "destello": 0.3,
+            "desfase": 0
+          }
+        },
+        {
+          "svg": "dot_b",
+          "desde": "dos",
+          "dibujo": 0,
+          "entrada": "pop",
+          "pos": [
+            590,
+            1270
+          ],
+          "empuje": 0.02,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "cada": 2,
+            "destello": 0.3,
+            "desfase": 0.5
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "3",
+          "desde": "tres",
+          "x": 150,
+          "y": 1050,
+          "tam": 80,
+          "color": "acento"
+        },
+        {
+          "texto": "2",
+          "desde": "dos",
+          "x": 150,
+          "y": 1270,
+          "tam": 80,
+          "color": "#3D7BFF"
+        },
+        {
+          "texto": "CADERA",
+          "desde": "cadera",
+          "x": 540,
+          "y": 1520,
+          "tam": 46,
+          "color": "acento"
+        },
+        {
+          "texto": "PIES",
+          "desde": {
+            "palabra": "cadera",
+            "t": 0.5
+          },
+          "x": 540,
+          "y": 1600,
+          "tam": 46,
+          "color": "#3D7BFF"
+        }
+      ]
+    },
+    {
+      "narracion": "El bajo hace algo muy latino: el tumbao. Se adelanta, y deja vacío el primer tiempo… así que ese golpe lo pone tu cuerpo.",
+      "titulares": [
+        {
+          "texto": "EL 1 LO PONES TÚ",
+          "acento": "TÚ",
+          "tam": 140
+        }
+      ],
+      "capas": [
+        {
+          "svg": "tumbao_barra",
+          "dibujo": 1.0,
+          "empuje": 0.03
+        },
+        {
+          "svg": "tumbao_notas",
+          "desde": "adelanta",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 6,
+            "cada": 2,
+            "desfase": 0.75
+          }
+        },
+        {
+          "svg": "tumbao_hueco",
+          "desde": "vacío",
+          "dibujo": 0.5,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.3,
+            "cada": 4
+          }
+        },
+        {
+          "svg": "pie",
+          "desde": "vacío",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 55,
+          "pos": [
+            477.5,
+            1450
+          ],
+          "empuje": 0.02,
+          "ritmo": {
+            "bpm": 100,
+            "tap": -12,
+            "cada": 4
+          }
+        }
+      ],
+      "textos": [
+        {
+          "texto": "TUMBAO",
+          "desde": "tumbao",
+          "y": 900,
+          "tam": 60,
+          "color": "#3D7BFF"
+        }
+      ]
+    },
+    {
+      "narracion": "Y esos graves no solo se oyen: se sienten. En 2022, en un concierto en Canadá, unos investigadores encendieron sonidos tan graves que nadie podía oírlos… y la gente bailó casi un doce por ciento más.",
+      "titulares": [
+        {
+          "texto": "LOS GRAVES SE SIENTEN",
+          "acento": "SE SIENTEN"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "ondas_graves",
+          "desde": "graves",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "onda": 4,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 9
+          }
+        },
+        {
+          "svg": "altavoz",
+          "dibujo": 1.2,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 3
+          }
+        },
+        {
+          "svg": "publico",
+          "desde": "concierto",
+          "dibujo": 1.0,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "tap": 3
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "titulo": "CAMERON Y EQUIPO",
+          "sub": "McMaster, Canadá · 2022",
+          "desde": "canadá",
+          "pos": [
+            540,
+            1600
+          ]
+        }
+      ],
+      "textos": [
+        {
+          "texto": "+11.8 % DE BAILE",
+          "desde": "gente",
+          "y": 1735,
+          "tam": 64,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Se cree que esas vibraciones entran por la piel y por el oído interno, el órgano del equilibrio, sin pasar por la conciencia.",
+      "titulares": [
+        {
+          "texto": "SIN PASAR POR LA CONCIENCIA",
+          "acento": "CONCIENCIA"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "oido",
+          "dibujo": 1.8,
+          "empuje": 0.04,
+          "temblor": 2,
+          "temblor_en": [
+            "vibraciones",
+            "conciencia"
+          ]
+        }
+      ],
+      "textos": [
+        {
+          "texto": "PIEL",
+          "desde": "piel",
+          "x": 300,
+          "y": 1640,
+          "tam": 50,
+          "color": "blanco"
+        },
+        {
+          "texto": "OÍDO INTERNO",
+          "desde": "interno",
+          "x": 720,
+          "y": 1640,
+          "tam": 50,
+          "color": "blanco"
+        },
+        {
+          "texto": "EQUILIBRIO",
+          "desde": "equilibrio",
+          "x": 720,
+          "y": 1710,
+          "tam": 40,
+          "color": "acento"
+        }
+      ]
+    },
+    {
+      "narracion": "Además, mucha de esta música va entre cien y ciento treinta pulsos por minuto, cerca de nuestro paso natural al caminar: unos dos pasos por segundo.",
+      "titulares": [
+        {
+          "texto": "AL PASO DE TU CUERPO",
+          "acento": "PASO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "velocimetro",
+          "dibujo": 1.2,
+          "empuje": 0.03,
+          "pos": [
+            540,
+            1000
+          ]
+        },
+        {
+          "svg": "aguja",
+          "desde": "cien",
+          "dibujo": 0,
+          "onda": 0,
+          "empuje": 0.03,
+          "pos": [
+            540,
+            1000
+          ],
+          "ritmo": {
+            "bpm": 100,
+            "vaiven": 3
+          }
+        },
+        {
+          "svg": "huella_0",
+          "desde": {
+            "palabra": "minuto",
+            "t": 0.2
+          },
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0
+        },
+        {
+          "svg": "huella_1",
+          "desde": {
+            "palabra": "minuto",
+            "t": 0.7
+          },
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0
+        },
+        {
+          "svg": "huella_2",
+          "desde": {
+            "palabra": "minuto",
+            "t": 1.2
+          },
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0
+        },
+        {
+          "svg": "huella_3",
+          "desde": {
+            "palabra": "minuto",
+            "t": 1.7
+          },
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0
+        }
+      ],
+      "textos": [
+        {
+          "texto": "100–130 BPM",
+          "desde": "cien",
+          "y": 1150,
+          "tam": 56,
+          "color": "acento"
+        },
+        {
+          "texto": "≈ 2 PASOS POR SEGUNDO",
+          "desde": "caminar",
+          "y": 1720,
+          "tam": 46,
+          "color": "blanco"
+        }
+      ]
+    },
+    {
+      "narracion": "Y luego está lo aprendido. Si creciste bailando en fiestas familiares, tu cerebro predice mejor estos patrones… y el hueco se vuelve irresistible.",
+      "titulares": [
+        {
+          "texto": "LO APRENDIDO TAMBIÉN CUENTA",
+          "acento": "APRENDIDO"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "guirnalda",
+          "dibujo": 1.2,
+          "empuje": 0.03
+        },
+        {
+          "svg": "focos_a",
+          "desde": "fiestas",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.25
+          }
+        },
+        {
+          "svg": "focos_b",
+          "desde": "fiestas",
+          "dibujo": 0,
+          "entrada": "pop",
+          "empuje": 0.03,
+          "onda": 0,
+          "ritmo": {
+            "bpm": 100,
+            "destello": 0.25,
+            "desfase": 0.5
+          }
+        },
+        {
+          "svg": "pareja",
+          "desde": "bailando",
+          "dibujo": 1.0,
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "tap": 5
+          }
+        }
+      ]
+    },
+    {
+      "narracion": "Así que cuando suena una salsa y tu pie se mueve solo… no eres tú. Es tu cerebro llenando los huecos que la clave dejó a propósito.",
+      "titulares": [
+        {
+          "texto": "TU CEREBRO LLENA LOS HUECOS",
+          "acento": "HUECOS"
+        }
+      ],
+      "capas": [
+        {
+          "svg": "clave_collar",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 70,
+          "pos": [
+            540,
+            1020
+          ],
+          "empuje": 0.03
+        },
+        {
+          "svg": "clave_golpes",
+          "dibujo": 0,
+          "escala": 70,
+          "pos": [
+            540,
+            1020
+          ],
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "rebote": 5
+          }
+        },
+        {
+          "svg": "manecilla",
+          "dibujo": 0,
+          "onda": 0,
+          "escala": 70,
+          "pos": [
+            540,
+            1020
+          ],
+          "empuje": 0.03,
+          "ritmo": {
+            "bpm": 100,
+            "vuelta": 8
+          }
+        },
+        {
+          "svg": "pie",
+          "desde": "pie",
+          "dibujo": 0,
+          "entrada": "pop",
+          "escala": 50,
+          "pos": [
+            465.0,
+            1520
+          ],
+          "empuje": 0.02,
+          "ritmo": {
+            "bpm": 100,
+            "tap": -12
+          }
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "texto": "¿POR QUÉ\nTE MUEVES\nSOLO?",
+    "acento": "SOLO?",
+    "ilustraciones": [
+      "clave_collar",
+      "clave_golpes",
+      "manecilla"
+    ],
+    "centro": [
+      540,
+      1330
+    ],
+    "tam": 175
+  },
+  "fuentes": [
+    "Grahn & Brett (2007, J Cogn Neurosci): ganglios basales y área motora suplementaria responden más a ritmos con pulso: https://www.jessicagrahn.com/grahnbrett2007.html",
+    "Witek et al. (2014, PLoS ONE 9(4): e94446): 50 ritmos de batería; deseo de moverse máximo con síncopa media (U invertida): https://doaj.org/article/743d9013fbde436999b78a244c718d37",
+    "Cameron et al. (2022, Current Biology): graves inaudibles aumentaron el baile 11.8 % en un concierto en el LIVELab de McMaster: https://www.technologynetworks.com/neuroscience/news/bass-gets-us-grooving-even-if-we-cant-actually-hear-it-368118",
+    "Mecanismo propuesto (piel y sistema vestibular) es hipótesis de los autores, por eso 'se cree que'",
+    "Paso natural ~2 Hz (MacDougall & Moore 2005); tempo preferido ~100–130 BPM: https://cspeech.ucd.ie/Fred/docs/MacDougallMoore.pdf",
+    "Clave de son 3-2: golpes en las corcheas 1, 4, 7 | 11, 13 de dos compases (pasos 0, 3, 6, 10, 12 de 16)"
+  ]
+}
